@@ -7,6 +7,9 @@ Right slide closure 右滑关闭
 * 支持两种方式实现
 * 支持开启关闭 右滑关闭功能
 * 支持滑动关闭之后回调（可用于特殊机型需要activity销毁之前关闭键盘）
+## 效果图
+<img src="https://github.com/luck-fc/SwipeBackActivity/blob/master/screenshot/20170512182755.png" width="50%"/> 
+<img src="https://github.com/luck-fc/SwipeBackActivity/blob/master/screenshot/20170512182611.png" width="50%"/> 
 
 ## Android引入library 
 root build.gradle加入
