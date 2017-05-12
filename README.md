@@ -1,6 +1,3 @@
-
-[![](https://jitpack.io/v/luck-fc/SwipeBackActivity.svg)](https://jitpack.io/#luck-fc/SwipeBackActivity)
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/luck-fc/SwipeBackActivity/releases/tag/1.0)
 # SwipeBackActivity
 Right slide closure 右滑关闭
 
