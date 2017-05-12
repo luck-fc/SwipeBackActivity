@@ -28,7 +28,7 @@ allprojects {
 public class MainActivity extends SwipeBackActivity {
 }
 ~~~
-### 方式2
+### 方式2 使用SwipeBackActivityUtil
 ~~~java
 public class MainActivity extends AppCompatActivity {
    //top 1 使用SwipeBackActivityUtil
