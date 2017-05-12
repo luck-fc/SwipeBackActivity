@@ -28,6 +28,14 @@ public class SwipeBackActivity extends AppCompatActivity {
         return super.dispatchTouchEvent(ev);
     }
 
+    /**
+     * 设置是否启用滑动关闭，默认开启
+     * @param enabled
+     */
+    public void setEnabledSwipeBack(boolean enabled){
+        mSwipeBackActivityUtil.setEnabled(enabled);
+    }
+
     @Override
     protected void onDestroy() {
         mSwipeBackActivityUtil.onDestroy();

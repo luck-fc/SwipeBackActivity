@@ -32,6 +32,7 @@ public class SwipeBackActivityUtil {
     private boolean mIsMoving;
     private ArgbEvaluator mEvaluator;
     private boolean ispost = false;
+    private boolean enabled = true;
 
     public SwipeBackActivityUtil(Activity activity) {
         if (activity == null) {
@@ -85,6 +86,9 @@ public class SwipeBackActivityUtil {
     }
 
     public boolean dispatchTouchEvent(MotionEvent ev) {
+        if(!enabled){
+            return false;
+        }
         addMovement(ev);
         if (mAnimator.isRunning()) {
             return true;
@@ -133,6 +137,10 @@ public class SwipeBackActivityUtil {
                 break;
         }
         return false;
+    }
+
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
     }
 
     /**
