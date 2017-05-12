@@ -20,7 +20,7 @@ allprojects {
 ```
 项目 build.gradle加入
 ```gradle
-    compile 'com.github.luck-fc:SwipeBackActivity:1.0'
+    compile 'com.github.luck-fc:SwipeBackActivity:1.0.1'
 ```
 ## 简要使用示例，详细请参考项目
 ### 方式1 继承SwipeBackActivity
