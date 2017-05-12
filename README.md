@@ -7,6 +7,7 @@ Right slide closure 右滑关闭
 * 支持两种方式实现
 * 支持开启关闭 右滑关闭功能
 * 支持滑动关闭之后回调（可用于特殊机型需要activity销毁之前关闭键盘）
+* 不添加任何视图层级。
 
 ## Android引入library 
 root build.gradle加入
