@@ -132,6 +132,8 @@ public class SwipeBackActivityUtil {
                     }
                     startX = 0;
                     startY = 0;
+                    recycleVelocityTracker();
+                    return true;
                 }
                 recycleVelocityTracker();
                 break;
