@@ -10,8 +10,8 @@ Right slide closure 右滑关闭
 * 不添加任何视图层级。
 
 ## 效果图
-![](https://github.com/luck-fc/SwipeBackActivity/blob/master/screenshot/20170512182755.png)
-![](https://github.com/luck-fc/SwipeBackActivity/blob/master/screenshot/20170512182611.png)
+<img src="https://github.com/luck-fc/SwipeBackActivity/blob/master/screenshot/20170512182755.png" width="33%"/> 
+<img src="https://github.com/luck-fc/SwipeBackActivity/blob/master/screenshot/20170512182611.png" width="33%"/> 
 
 ## Android引入library 
 root build.gradle加入
