@@ -10,8 +10,8 @@ Right slide closure 右滑关闭
 * 不添加任何视图层级。
 
 ## 效果图
-<img src="https://github.com/luck-fc/SwipeBackActivity/blob/master/screenshot/20170512182755.png" width="33%"/> 
-<img src="https://github.com/luck-fc/SwipeBackActivity/blob/master/screenshot/20170512182611.png" width="33%"/> 
+![](https://github.com/luck-fc/SwipeBackActivity/blob/master/screenshot/20170512182755.png)
+![](https://github.com/luck-fc/SwipeBackActivity/blob/master/screenshot/20170512182611.png)
 
 ## Android引入library 
 root build.gradle加入
@@ -25,7 +25,7 @@ allprojects {
 ```
 项目 build.gradle加入
 ```gradle
-    compile 'com.github.luck-fc:SwipeBackActivity:1.0.1'
+    compile 'com.github.luck-fc:SwipeBackActivity:1.0.2'
 ```
 ## 简要使用示例，详细请参考项目
 ### 方式1 继承SwipeBackActivity
